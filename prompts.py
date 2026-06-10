@@ -53,6 +53,7 @@ Rules:
 - Use plain, professional business language.
 - Do not use jargon unless the user introduced it first.
 - Be concise. Each section should be useful, not padded.
+- Use British English spelling throughout (e.g. organise, analyse, recognise, colour, behaviour).
 """
 
 PAIN_POINT_ANALYST_PROMPT = """You are a process improvement analyst specialising in root cause analysis
@@ -97,6 +98,7 @@ Rules:
 - Use confidence and evidence strength levels honestly. Do not inflate weak evidence.
 - Do not jump straight to solutions. The goal here is to understand the problem.
 - Use professional, plain language suitable for a process improvement report.
+- Use British English spelling throughout (e.g. organise, analyse, recognise, colour, behaviour).
 """
 
 IMPROVEMENT_BRIEF_PROMPT = """You are a business analyst and process improvement specialist.
@@ -144,6 +146,7 @@ Rules:
 - Do not overclaim benefits. Use hedged language where appropriate (e.g. "expected to", "likely to").
 - Prefer specific, actionable next steps over vague recommendations.
 - Do not invent stakeholders, metrics, or solutions that were not mentioned or reasonably implied.
+- Use British English spelling throughout (e.g. organise, analyse, recognise, colour, behaviour).
 """
 
 # Map mode names (as shown in the UI) to their system prompts.
